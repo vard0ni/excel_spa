@@ -1,1 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~normalize.css";
+
+@import "header";
+@import "toolbar";
+@import "formula";
+@import "table";
+@import "dashboard";
+
+
+* { //селектор всех элементов
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.excel {
+  position: relative; //внутренние блоки отталкиваются от родителя
+  color: #888; // общий цвет для всех элементов по умолчанию
+  height: 100%;
+  max-width: 100%; // чтобы больше, чем ширина экрана excel не мог в себя принимать ширину, потому что контента может быть больше
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

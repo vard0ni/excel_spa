@@ -14,8 +14,10 @@
     "linebreak-style": ["error", "windows"],
     "indent": "off",
     "max-len": "off",
-    "require-jsdoc": "off"
-    //"no-tabs": "off"
+    "require-jsdoc": "off",
+    "no-tabs": "off",
+    "operator-linebreak": "off",
+    "no-trailing-spaces": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }

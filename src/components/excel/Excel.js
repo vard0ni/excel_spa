@@ -19,9 +19,9 @@ export class Excel {
 			const component = new Component($el) // создали конструктор
 
 			// DEBUG
-			if (component.name) { // если определили name
+			/*if (component.name) { // если определили name
 				window['c' + component.name] = component  // в объект window будем заносить
-			}
+			}*/
 
 			$el.html(component.toHTML())
 			$root.append($el)
